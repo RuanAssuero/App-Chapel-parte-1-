@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                     R.id.radioSabedoria -> "Corvinal!"
                     R.id.radioAmbicao -> "Sonserina!"
                     R.id.radioLealdade -> "Lufa-Lufa!"
-                    else -> "Casa Indefinida" // Caso de segurança, não deve acontecer
+                    else -> "Casa Indefinida"
                 }
                 Toast.makeText(this, "Você pertence à... $casa", Toast.LENGTH_LONG).show()
             }
